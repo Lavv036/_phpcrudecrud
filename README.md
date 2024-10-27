@@ -1,5 +1,7 @@
 # INET4031 PHP Crude CRUD App (MariaDB/MySQL DB Version)
 
+Done by Fue Vang, vang3303@umn.edu, ID: 5672411
+
 ## Demonstrates a basic Dynamic HTML Application using PHP
 
 It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
