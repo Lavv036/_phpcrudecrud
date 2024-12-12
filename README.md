@@ -1,17 +1,33 @@
 # INET4031 PHP Crude CRUD App (MariaDB/MySQL DB Version)
 
-Done by Fue Vang, vang3303@umn.edu, ID: 5672411
+**Author:** Fue Vang  
 
-## Demonstrates a basic Dynamic HTML Application using PHP
 
-It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
+## Overview
 
-Understand how this one works, and more modern/advanced/complex web development frameworks, won't seem so mysterious.
+This project is a **Crude CRUD Application** implemented in PHP, demonstrating the basics of a dynamic, data-driven web application. While simple and unrefined, it provides a foundational understanding of how to develop and manage such applications. It serves as an introductory step to more modern and advanced frameworks.
 
-This application assumes the MySQL database has certain users added and an "employees" database based on a sample dataset. Additional details will be provided in class.
+## Features
 
-The "credentials.php" file above has the details of the MySQL database connection.  You will need to modify this file to work for your configuration
+- **Create**: Add new records to the database.  
+- **Read**: Display records dynamically from the database.  
+- **Update**: Modify existing records.  
+- **Delete**: Remove records from the database.  
 
-Obviously everything is in the open and unsecure here.
+### Key Concepts
 
-...and obviously change the credentials too...
+- **Dynamic HTML**: Rendering web pages with data fetched or manipulated via PHP.  
+- **Database Integration**: Using MariaDB/MySQL to store and retrieve application data.  
+- **Simple Authentication**: Basic implementation for database credentials (unsecured for simplicity).  
+
+## Prerequisites
+
+1. **PHP**: Ensure PHP is installed and configured on your server.
+2. **MariaDB/MySQL Database**: A working instance of MariaDB/MySQL is required.
+3. **Dataset**: The application assumes a database named `employees` populated with a sample dataset. Further details will be provided in class.
+
+## Setup Instructions
+
+1. Clone the repository or download the project files.  
+   ```bash
+   git clone https://github.com/yourusername/php-crude-crud.git
